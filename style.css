@@ -1,0 +1,195 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fb;
+    color: #172033;
+}
+/* ================= HEADER ================= */
+header {
+    background-color: #14213d;
+    color:white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+header h1 {
+    margin: 0 0 0.5rem;
+    font-size: 2.2rem;
+}
+/* ================= NAVIGATION ================= */
+nav {
+    background-color: #1f3a5f;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.3rem;
+    padding: 0.55rem 0.8rem;
+    border-radius: 6px;
+}
+/* Hover and focus state */
+nav a:hover,
+nav a:focus {
+    background-color: white;
+    color: #1f3a5f;
+    outline: 2px solid white;
+}
+/* ================= MAIN ================= */
+main {
+    width: min(1100px, 92%);
+    margin: 2rem auto;
+}
+/* ================= REPEATED SECTIONS ================= */
+/* Class selector */
+.content-section {
+    background-color: white;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+}
+/* ================= UNIQUE SECTION ================= */
+/* ID selector */
+#hobbies {
+    border-left: 6px solid #1f3a5f;
+}
+/* ================= HEADINGS ================= */
+h2 {
+}
+    color: #14213d;
+    border-bottom: 2px solid #d7dee8;
+    padding-bottom: 0.4rem;
+h3 {
+    color: #1f3a5f;
+}
+/* ================= LISTS ================= */
+li {
+    margin-bottom: 0.5rem;
+}
+/* ================= TABLE ================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+caption {
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+    text-align: left;
+}
+th,
+td {
+}
+th {
+}
+    border: 1px solid #b8c2cc;
+    padding: 0.8rem;
+    text-align: left;
+    background-color: #e8eef5;
+/* ================= PHOTO GALLERY ================= */
+#photos figure {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 1%;
+}
+#photos img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #d1d9e2;
+}
+figcaption {
+    margin-top: 0.5rem;
+}
+/* ================= MEDIA ================= */
+video,
+audio {
+    max-width: 100%;
+    height: auto;
+}
+video {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+}
+/* ================= CONTACT FORM ================= */
+form {
+    max-width: 700px;
+}
+label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+input,
+select,
+textarea {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    border: 1px solid #aeb8c4;
+    border-radius: 6px;
+    font: inherit;
+}
+textarea {
+    resize: vertical;
+}
+/* ================= SUBMIT BUTTON ================= */
+button {
+    background-color: #14213d;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+/* Hover and focus state */
+button:hover,
+button:focus {
+    background-color: #1f3a5f;
+    outline: 3px solid #b8cbe3;
+    outline-offset: 2px;
+}
+/* ================= FOOTER ================= */
+footer {
+    background-color: #14213d;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+}
+/* ================= MOBILE RESPONSIVENESS ================= */
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 1.7rem;
+    }
+    nav a {
+        display: block;
+        margin: 0.25rem 0;
+    }
+    main {
+        width: 94%;
+        margin: 1rem auto;
+    }
+    .content-section {
+        padding: 1rem;
+        margin: 1rem 0;
+    }
+    #photos figure {
+        display: block;
+        width: 100%;
+        margin: 1rem 0;
+    }
+    th,
+    td {
+        padding: 0.5rem
